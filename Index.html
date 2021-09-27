@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Наша первая Web-страница</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="Описание нашей первой Web-страницы." />
+    <meta name="keywords" content="web-страница, первая web-страница, html" />
+</head>
+<body>
+    <h1>Заголовок нашей первой Web-страницы</h1>
+    <p>Наш <em>первый</em> текст <strong>внутри</strong> абзаца.</p>
+    <p>Второй абзац нашей <b>Web-страницы</b>.</p>
+    <p>При выходе из дома <strong>выключайте все электроприборы!</strong></p>
+    <p>Мои ученики спрашивают: "<i>Как создать сайт?</i>".</p>
+    <p><u>Подчёркнутый</u> текст.</p>
+    <p><s>5000</s> 3000 рублей</p>
+    <p>a<sub>2</sub>=5</p>
+    <p>a<sup>2</sup>=5</p>
+    <p><abbr title="HyperText Markup Language">HTML</abbr> - язык <span>гипертекстовой разметки</span>.</p>
+    <code>x = 5;<br />y = 7;</code>
+    <p>А Б </p>
+    <pre>А      
+    Б</pre>
+	
+	
+	
+	<p><em>Тогда схема примет несколько другой вид</em> (рисунок 6). 
+	<b>Ток выхода микроконтроллера будет около 15 мА, что вписывается 
+	в допустимые значения, ток коллектора будет ограничен током катушки реле</b>. 
+	<u>Диод VD1</u> называют обратным, он нужен для подавления импульсов ЭДС самоиндукции при закрытии 
+	транзистора и отключении катушки, используется также маломощный, например,<b><em><s> 1N4118.</b></em></s>
+    </p>
+	<code>H<sub>2</sub>SO<sub>4</sub></code>
+	<p><code>5*x<sup>2</sup>5*x+2=0</code></p>
+	
+	<p>
+        <img src="images/space_small.jpg" alt="Космос" title="Космическое пространство" />
+        <img src="images/border.jpg" alt="" />
+        <img src="https://myrusakov.ru/images/php7-cover.png" alt="Видеокурс" />
+    </p>
+	 <ul>
+        <li><b>Первый</b> элемент</li>
+        <li>Второй <strong>элемент</strong></li>
+        <li>Третий <i>элемент</i></li>
+        <li><em>Четвёртый элемент</em></li>
+        <li>Пятый элемент</li>
+    </ul>
+    <ol>
+        <li><b>Первый</b> элемент</li>
+        <li>Второй <strong>элемент</strong></li>
+        <li>Третий <i>элемент</i></li>
+        <li><em>Четвёртый элемент</em></li>
+        <li>Пятый элемент</li>
+    </ol>
+    <h2>Наши услуги</h2>
+    <dl>
+        <dt>Поклейка обоев</dt>
+        <dd>Мы поклеем обои лучше всех.</dd>
+        <dt>Установка сантехники</dt>
+        <dd>Лучшие сантехники мира.</dd>
+        <dt>Ремонт "под ключ"</dt>
+        <dd>Сделаем всё от начала и до конца.</dd>
+    </dl>
+	<p>
+        <a href="https://google.ru">Гугл</a>
+    </p>
+    <p>
+        <a href="page.html" title="Переход на внутреннюю страницу">Внутренняя страница</a>
+    </p>
+    <p>Самый популярный поисковик в мире - это <a target="_blank" href="https://google.ru">Google</a>.</p>
+    <p>
+        <a target="_blank" href="images/space.jpg">
+            <img src="images/space_small.jpg" alt="Космос" />
+        </a>
+    </p>
+	
+	
+	
+	
+	
+	
+	 <form name="form" action="script.php" method="get" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Основные данные</legend>
+            <div>
+                <label for="firstname">Ваше имя:</label>
+                <input id="firstname" type="text" name="firstname" value="Николай" disabled="disabled" />
+            </div>
+            <div>
+                <label for="surname">Ваша фамилия:</label>
+                <input id="surname" type="text" name="surname" placeholder="Введите фамилию" />
+            </div>
+            <div>
+                <label for="password">Ваш пароль:</label>
+                <input id="password" type="password" name="password" />
+            </div>
+            <div>
+                <label for="email">Ваш email:</label>
+                <input id="email" type="email" name="email" />
+            </div>
+            <div>
+                <label for="phone">Ваш телефон:</label>
+                <input id="phone" type="tel" name="phone" />
+            </div>
+            <div>
+                <label for="site">Ваш сайт:</label>
+                <input id="site" type="url" name="site" />
+            </div>
+        </fieldset>
+        <fieldset>
+            <div>
+                <label>Ваш любимый цвет:</label>
+                <input type="radio" name="color" value="1" />Зелёный
+                <input type="radio" name="color" value="2" checked="checked" />Красный
+                <input type="radio" name="color" value="3" />Жёлтый
+            </div>
+            <div>
+                <label>Ваше любимое блюдо:</label>
+                <input type="radio" name="food" value="1" />Суп
+                <input type="radio" name="food" value="2" />Мясо
+                <input type="radio" name="food" value="3" />Рыба
+            </div>
+            <div>
+                <label>Что Вам принести:</label>
+                <input type="checkbox" name="order" value="1" />Суп
+                <input type="checkbox" name="order" value="2" />Мясо
+                <input type="checkbox" name="order" value="3" />Рыба
+            </div>
+            <div>
+                <label for="news">Подписаться на новости:</label>
+                <input id="news" type="checkbox" name="news" value="1" checked="checked" />
+            </div>
+            <div>
+                <label for="search">Ваш любимый поисковик:</label>
+                <input id="search" type="text" name="search" list="search_list" />
+                <datalist id="search_list">
+                    <option value="Google"></option>
+                    <option value="Яндекс"></option>
+                </datalist>
+            </div>
+            <div>
+                <label for="file">Файл:</label>
+                <input id="file" type="file" name="file" />
+            </div>
+            <div>
+                <label for="count">Количество копий:</label>
+                <input id="count" type="number" name="count" min="1" max="10" />
+            </div>
+            <div>
+                <label for="range">Диапазон:</label>
+                <input id="range" type="range" name="range" min="1" max="100" step="2" />
+            </div>
+            <div>
+                <label for="date">Дата:</label>
+                <input id="date" type="date" name="date" />
+            </div>
+            <div>
+                <label for="color">Цвет:</label>
+                <input id="color" type="color" name="color" />
+            </div>
+            <div>
+                <label for="message">Сообщение:</label>
+                <textarea id="message" name="message">Моё сообщение</textarea>
+            </div>
+            <div>
+                <label for="city">Город:</label>
+                <select id="city" name="city" size="3">
+                    <optgroup label="Крупнейшие города">
+                        <option value="1">Москва</option>
+                        <option value="2">Санкт-Петербург</option>
+                    </optgroup>
+                    <optgroup label="Крупные города">
+                        <option value="3" selected="selected">Омск</option>
+                        <option value="4">Владивосток</option>
+                        <option value="5">Краснодар</option>
+                    </optgroup>
+                </select>
+            </div>
+        </fieldset>
+        <div>
+            <input type="hidden" name="article_id" value="100" />
+            <input type="reset" value="Сбросить" />
+            <input type="submit" name="submit" value="Отправить" />
+        </div>
+    </form>
+	
+</body>
+</html>
