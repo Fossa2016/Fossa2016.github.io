@@ -1,0 +1,93 @@
+@import url("color.css");
+@font-face {
+	font-family: A;
+	src: url("styles/A.woff2") format("woff2"), url("styles/A.woff") format("woff");
+}
+
+p { 
+    font-family: A;
+	font-size: 150%;
+    text-indent: 25px;
+    line-height: 150%;	
+    text-shadow: 10px 10px 10px #555;		
+}
+
+h2 {
+	font-family: A;
+    text-align: center;
+}
+
+.bold { 
+    font-weight: bold;
+	text-align: right;	
+}	
+
+#firstlink:hover {
+	font-size: 150%;
+}
+
+#secondlink:hover {
+	font-size: 150%;
+}
+
+#thirdlink:hover {
+	font-size: 150%;
+}
+
+#fourthlink:hover {
+	font-size: 150%;
+}
+
+input[type="submit"]{
+	height: 100px;
+	width: 700px;
+	font-size: 150%;
+}
+
+input[type="submit"]:hover{
+	border: 5px solid #7c005c;
+}
+nav ul{
+	list-style-image: url("../Icedeath.jpg");
+	font-size: 2em;
+	padding: 0 65px;
+}
+
+nav ul a{
+	text-decoration: none;
+}
+
+header, footer {
+	padding: 100px auto;
+	margin: 50px 0;
+	border: 5px solid #0c0;
+	text-align: center;
+	border-radius: 50px;
+}
+
+header>div{
+	box-shadow: 5px 5px 5px #0001cc;
+	border: 3px solid #0001cc;
+	width: 1000px;
+	height: 40px;
+	padding-top: 25px;
+	margin: 15px auto;
+}
+
+.body2 {
+	background: url("../background.jpg") no-repeat;
+	padding: 0;
+	background-size: cover;
+	margin: 0;
+	background-pozition: center;
+}
+
+#rating {
+	padding: 100px auto;
+    margin: auto 500px;	
+	border-radius: 30px;
+}
+
+
+
+
