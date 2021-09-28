@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Формы</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="Попытка в формы" />
+    <meta name="keywords" content="формы, html" />
+	<link href="css/main.css" rel="stylesheet" type="text/css"/> 
+</head>
+<body>
+	<div>
+		<nav>
+			<ul>
+				<li><a id="firstlink" title="Лють" target="_blank" href="index3.html">Муда-да-ёёё</a></li>
+				<li><a id="secondlink" title="Ниндаё" target="_blank" href="index2.html">Ниндаё</a></li>
+				<li><a id="thirdlink" title="Ара-ра" target="_blank" href="index5.html">Ара-ра</a></li>
+				<li><a id="fourthlink" title="О мае ва моу" target="_blank" href="index6.html">О мае ва моу</a></li>
+			</ul>
+		</nav>
+	</div>	
+	<div style="background: #CCA69E; width: 200px;">Блок 1</div>
+	<div style="background: #FF9282; width: 150px;">Блок 2</div>
+	<div style="background: #8ED9B6; width: 100px;">Блок 3</div>
+	<form name="form" action="script.php" method="get" enctype="multipart/form-data">
+		<div>
+                <label for="firstname">Имя Ваше:</label>
+                <input id="firstname" type="text" name="firstname"/>
+        </div>
+		<div>
+                <label for="email">Почта Ваша:</label>
+                <input id="email" type="email" name="email"/>
+        </div>
+		<div>
+                <label for="password">Пароль:</label>
+                <input id="password" type="password" name="password"/>
+        </div>
+		<div>
+                <label for="password">Подтвердите пароль:</label>
+                <input id="password" type="password" name="password"/>
+        </div>
+		<div>
+                <label for="phone">Пароль:</label>
+                <input id="phone" type="tel" name="phone"/>
+        </div>
+		<div>
+                <label for="city">Город:</label>
+                <select id="city" name="city">
+                    <optgroup label="Крупнейшие города">
+                        <option value="1">Минас-Тирит</option>
+                        <option value="2">Лориэн</option>
+                        <option value="3">Штормград</option>
+                    </optgroup>
+                    <optgroup label="Крупные города">
+                        <option value="4" selected="selected">Днепропетровск</option>
+                        <option value="5">Коготь</option>
+                        <option value="6">Осгилиат</option>
+                    </optgroup>
+					<optgroup label="Малые города">
+                        <option value="7" selected="selected">Шир</option>
+                        <option value="8">Длинные луки</option>
+                        <option value="9">Вильнюс</option>
+                    </optgroup>
+                </select>
+        </div>
+		<div>
+                <label for="message">Послание ваше нам:</label>
+                <textarea id="message" name="message" placeholder="Молвите здеся"></textarea>
+        </div>
+		<div>
+                <label for="news">Присылать вам новости:</label>
+                <input id="news" name="news" type="checkbox" value="1" checked="checked"></input>
+        </div>
+		<div>
+                <label>Лучшая вайфу:</label>
+                <input id="waifu" name="waifu" type="radio" value="1" checked="checked"></input>Мэгумин 
+        </div>
+		<div>
+				<input type="submit" name="submit" value="Отослать усё"/>
+		</div>		
+		<p class="n">
+		Генерал-лейтенант Ланжерон – французский аристократ на русской службе, позднее вспоминал, 
+		что дело не заладилось с самого начала. Войска перемешались, и генералам ночью приходилось 
+		искать свои полки. Хотя было полнолуние, небо заволокло облаками, и свет луны помогал мало. 
+		Только к 10, а то и 11 часам колонны хоть как-то могли построиться и начать движение. Колонны
+		при этом часто пересекались – «ошибка непростительная для… самого негодного штабного офицера». 
+		Совещание командиров колонн началось в 10 часов вечера. Было объявлено, что выход колонн начнется 
+		в 7 часов утра. Кутузов на совете спал (или делал вид, что спит), но в конце совещания проснулся 
+		и приказал перевести текст диспозиции на русский язык. Ланжерон потом говорил, что свой экземпляр
+		он получил лишь в 8 часов утра, лишь после того, как ведомая им часть уже выступила.
+		</p>
+		<p class="blue">
+		На правом фланге Багратион со своими 9000 солдат пехоты и 3000 кавалеристов при 40 орудиях ровно
+		в 8:00 начал атаку и занял Голубиц и Круг. Тогда как российская императорская гвардия под командованием 
+		вл. Великого князя Константина, продвигаясь вперед, вышла на высоту над селеньем Блазовиц.
+		</p>
+		<p class="red">
+		Жестокий бой закипел на левом фланге. Австрийские полки Кинмайера (4000 пехоты, 1 – кавалеристов и 12 орудий)
+		начали наступление на деревню Тельниц. Затем ему на помощь прибыли всадники Лихтенштейна. Следом прибыла 
+		колонная Дохтурова. Ланжерон и Пржебышевский атаковали Сокольниц, хотя им очень мешал туман, сгустившийся
+		в низинах и ставший еще гуще от дыма выстрелов. Командовал всем левым флангом союзной армии граф Буксгевден.
+		В его распоряжении находились сразу три колонны, и он имел явное преимущество над войсками Даву, но… 
+		реализовать его так и не сумел, хотя деревни Тельниц и Сокольниц ему удалось захватить. В тумане одни 
+		французские части начали стрелять по другим, возникла неразбериха, и этим можно было воспользоваться. 
+		Однако Буксгевден держал четыре пехотных полка в резерве и создавшейся ситуацией (густой туман) не
+		воспользовался. В результате французы успели перегруппироваться, а затем в 9:00 начать контратаку.
+		</p>
+		<div class="bold">
+		НУ ОЧЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕНЬЬЬЬЬЬЬЬЬЬЬЬЬЬЬЬЬЬЬ ЖЖЖЖИИИИИИИИРННННННННЫЙ ТТТТТТТЕККККККСТ
+		</div>
+		<div id="Icedeath">
+			<img style="-webkit-user-select: 
+			none;margin: auto;cursor: zoom-in;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;"
+			src="https://steamuserimages-a.akamaihd.net/ugc/1680366187617383437/C02604AE8C55F02C9CD59ED391F598CF128DC830/?imw=512&amp;amp;&amp;amp;ima=fit&amp;amp;impolicy=Letterbox&amp;amp;imcolor=%23000000&amp;amp;letterbox=false" width="466" height="856">
+		</div>
+</body>
+</html>		
